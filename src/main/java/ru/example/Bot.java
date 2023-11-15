@@ -1,6 +1,10 @@
 package ru.example;
 
-public interface Bot {
+/**
+ * Интерфейс бота для его запуска и отправки сообшения
+ */
+public interface Bot extends Logic {
+
     /**
      * Запсук бота
      */
